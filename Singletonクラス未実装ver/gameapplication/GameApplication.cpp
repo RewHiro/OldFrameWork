@@ -11,6 +11,6 @@ m_scene_manager(CSceneManager::GetInstance(m_app_env,m_random))
 }
 
 void CGameApplication::Update(){
-	m_scene_manager->Update();
-	m_scene_manager->Draw();
+	m_scene_manager.Update();
+	m_scene_manager.Draw();
 }

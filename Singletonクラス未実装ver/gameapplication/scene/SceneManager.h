@@ -8,7 +8,7 @@
 //シーンクラス(基底クラス)
 //========================================
 
-class CScene{
+class CScene : private Uncopyable{
 public:
 	CScene(std::shared_ptr<AppEnv>app_env,std::shared_ptr<Random>random):
 		m_app_env(app_env),
@@ -42,9 +42,9 @@ public:
 	};
 
 	//　インスタンスの生成
-	static CSceneManager *GetInstance(std::shared_ptr<AppEnv>app_env, std::shared_ptr<Random>random){
+	static CSceneManager &GetInstance(std::shared_ptr<AppEnv>app_env, std::shared_ptr<Random>random){
 		static CSceneManager instance(app_env,random);
-		return &instance;
+		return instance;
 	}
 	~CSceneManager();
 	void Update();										//　更新
