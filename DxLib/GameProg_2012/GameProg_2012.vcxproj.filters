@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\gameapplicationn">
+      <UniqueIdentifier>{b5710477-25e9-410c-8b17-6881a3372e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{82098550-f1d4-4a7c-b9e1-86c00daf7561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object\player">
+      <UniqueIdentifier>{bb885f87-0ad4-4693-9803-83be01371ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object\enemy">
+      <UniqueIdentifier>{8799945b-d6df-469f-a1c4-3ae140d21cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{5367b404-7014-473b-9325-581748b47082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gameapplication\GameAppliacation.cpp">
+      <Filter>ソース ファイル\gameapplicationn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object\player\Player.cpp">
+      <Filter>ソース ファイル\object\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\SceneManager.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\Stage.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object\enemy\Enemy.cpp">
+      <Filter>ソース ファイル\object\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gameapplication\GameAppliacation.h">
+      <Filter>ソース ファイル\gameapplicationn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object\Object.h">
+      <Filter>ソース ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object\player\Player.h">
+      <Filter>ソース ファイル\object\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\SceneManager.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Stage.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object\enemy\Enemy.h">
+      <Filter>ソース ファイル\object\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Uncopyable.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
